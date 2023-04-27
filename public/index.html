@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Socket.IO Namespaces Example</title>
+    <link rel="stylesheet" href="ideal.css">
+  </head>
+  <body>
+   <header>
+    <h1>RANDOM CHAT APP</h1>
+   </header>
+    <ul>
+      <div class="room1"><a href="/room1">Room 1</a></div>
+      <div class="room2"><a href="/room2">Room 2</a></div>
+      <div class="room3"><a href="/main">Main</a></div>
+    </ul>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      const socket = io();
+     
+      socket.on('connect', () => {
+        console.log(`Connected with ID: ${socket.id}`);
+      });
+    </script>
+  </body>
+</html>

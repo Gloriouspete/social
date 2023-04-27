@@ -1,0 +1,27 @@
+body{
+    width:100vw;
+    height:auto;
+    background-color: #f1f1f1;
+    margin:0 auto;
+}
+header{
+    width:100vw;
+    height:40px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .mess{
+    color:blue;
+    font-weight: 800;
+  }
+  .container{
+    background-color: white;
+    min-width: 50px;
+    min-height: 30px;
+    width: 200px;
+    height:70px;
+    border-radius: 10px;
+    margin:10px 10px;
+  };
