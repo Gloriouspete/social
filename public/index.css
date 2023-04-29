@@ -35,9 +35,13 @@ body {
      min-height: 40px;
      background-color: orange;
      display: flex;
+     overflow: auto;
 
     }
 
 .message{
     text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

@@ -1,0 +1,100 @@
+body{
+    width:100vw;
+    background-color:#f1f1f1;
+    margin: 0;
+    box-sizing: inherit;
+}
+header{
+    background-color: rgb(33, 33, 150);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    
+    font-weight: 900;
+    text-shadow: 2px 2px 2px orange;
+}
+.room1{
+    width:200px;
+    border-radius: 10px;
+    height:50px;
+    background-color: rgb(255, 111, 2);
+    margin:40px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+    box-shadow: 1px 1px 1px black;
+}
+.room2{
+    width:200px;
+    border-radius: 10px;
+    height:50px;
+    background-color: rgb(255, 111, 2);
+    margin:40px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+    box-shadow: 1px 1px 1px black;
+}
+.main{
+    width:200px;
+    border-radius: 10px;
+    height:50px;
+    background-color: rgb(255, 111, 2);
+    margin:40px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+    box-shadow: 1px 1px 1px black;
+}
+.headblock{
+    width: 320px;
+    height:50px;
+    background-color: transparent;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.one{
+    color:white;
+    text-decoration: none;
+    font-weight:900;
+    font-size:120%;
+    text-shadow:2px 2px 2px rgb(33, 33, 150);
+}
+.two{
+    color:white;
+    text-decoration: none;
+    font-weight:900;
+    font-size:120%;
+    text-shadow:2px 2px 2px rgb(33, 33, 150);
+}
+.main-text::before{
+    content:'Connect ';
+}
+.main-text{
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+}
+.second-text{
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+}
+.third-text{
+    text-align: center;
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+}
