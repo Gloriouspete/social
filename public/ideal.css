@@ -39,3 +39,29 @@ header{
   .maniac{
     font-weight: 500;
   }
+  .former{
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250vw;
+    margin: 10% auto;
+    height: 250px;
+    border-radius: 50px;
+
+  }
+  #idan{
+    width:20vw;
+    height:30px;
+    border-radius: 10px;
+    border: none; 
+    padding: 15px 15px;
+  }
+  #idan-button{
+    width:10vw;
+    height:40px;
+    background-color: #f2a516;
+    box-shadow: 1px 1px 1px black;  
+    border-radius: 10px;
+  }

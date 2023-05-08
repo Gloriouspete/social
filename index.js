@@ -6,6 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIO(server);
 const users = new Map();
+const port = process.env.PORT || 3000;
 
 // Serve static files from the public folder
 app.use(express.static(__dirname + '/public'));
@@ -104,6 +105,6 @@ coderoom.on('connection',(socket) =>{
     });
 
 // Start the server and listen for incoming connections
-server.listen(3000, () => {
+server.listen(`${port}`, () => {
   console.log('Server started on port 3000');
 });

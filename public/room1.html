@@ -2,9 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Room</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="ideal.css">
+    <link rel="stylesheet" href="media.css">
   </head>
   <body>
     <header>
@@ -16,6 +18,11 @@
     </form>
     <div class="clearfix">
     <div id="messages"></div>
+    <div class="former">
+      <h3>Enter Preferred Username</h3>
+      <input type="text" id="idan">
+      <button id="idan-button">join</button>
+    </div>
     </div>
     <script src="/socket.io/socket.io.js"></script>
     <script src="room1.js"></script>

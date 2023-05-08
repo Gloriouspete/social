@@ -1,5 +1,15 @@
 const socket = io('/room2');
-const username = prompt('your username');
+let former = document.querySelector('.former');
+let idan = document.getElementById('idan');
+let idanbutton = document.getElementById('idan-button');
+
+
+idanbutton.addEventListener('click', () => {
+  former.style.display = 'none';
+  const username = idan.value;
+  socket.emit('join', username);
+});
+
 
 socket.on('connect', () => {
   console.log(`Connected to room1 with ID: ${socket.id}`);

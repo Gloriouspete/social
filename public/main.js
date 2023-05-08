@@ -1,5 +1,6 @@
 const socket = io('/main');
 let roomCode;
+const username = prompt('enter username');
 
 const displayChatMessage = (msg) => {
   const output = document.querySelector("#messager");

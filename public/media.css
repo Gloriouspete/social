@@ -1,0 +1,23 @@
+@media (min-width: 450px) {
+    .body{
+        width:100vw;
+        height:100vh;
+    }
+   .container{
+    background-color: white;
+    min-width: 30vw;
+    min-height: 30px;
+    width:35vw;
+    height:auto;
+    border-radius: 10px;
+    margin:10px 10px;
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+   }
+.former{
+    width:70vw;
+}
+}
