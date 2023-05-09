@@ -1,0 +1,9 @@
+{
+    "routes": [
+      { "src": "/room1", "dest": "/public/room1.html" },
+      { "src": "/room2", "dest": "/public/room2.html" },
+      { "src": "/main", "dest": "/public/main.html" },
+      { "src": "/(.*)", "dest": "/public/index.html" }
+    ]
+  }
+  

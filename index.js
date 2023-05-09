@@ -105,6 +105,6 @@ coderoom.on('connection',(socket) =>{
     });
 
 // Start the server and listen for incoming connections
-server.listen(`${port}`, () => {
+server.listen(port, () => {
   console.log('Server started on port 3000');
 });
